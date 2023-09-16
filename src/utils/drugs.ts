@@ -1,4 +1,4 @@
-import { Drug, DrugData } from "@/entities/drugs";
+import { Drug, DrugData } from "@entities/drugs";
 
 
 export const handleDrugFilterByParameters = (filterValue: string, data: DrugData): Drug[] => {

@@ -9,12 +9,13 @@ This is a frontEnd application thats searches for drugs from a dataset provided
 - [Getting Started](#getting-started)
 - [Technology Stack](#technology-stack)
 - [Installation](#installation)
+- [Testing](#testing)
 - [Questions](#questions)
 - [Support or Contribution](#support-or-contribution)
 - [Status](#status)
 
 ## Getting Started
-This is a clientside javascript application built [React JS](https://reactjs.org/) application. The data exists on endpoints serve through [JSONPlaceholder API](https://jsonplaceholder.typicode.com/)
+This is a clientside javascript application built [React JS](https://reactjs.org/) application.
 
 
 ## Technology Stack
@@ -42,9 +43,15 @@ pnpm start
 ```
 - Navigate to `http://localhost:3000`
 
+## Testing
+
+Client side tests - Run `pnpm test` on the terminal while within the **project root directory**.
+
+Client side testing is achieved through the use of the `jest` package and `react-testing library`. 
+
 
 ## Questions
-For more details contact benny.ogidan@andela.com
+For more details contact benfluleck@gmail.com
 
 ## Support or Contribution
 For any suggestions or contributions or issues please do raise them or email me.

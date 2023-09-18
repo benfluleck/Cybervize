@@ -6,7 +6,7 @@ interface SearchCardDrops {
   drugs?: Drug[];
 }
 
-const SearchCardList: FC<SearchCardDrops> = ({ drugs =[] }) => (
+const SearchCardList: FC<SearchCardDrops> = ({ drugs = [] }) => (
   <>
     <p className="self-start mt-12">Showing {drugs.length} results</p>
     <div className="w-full flex flex-col">

@@ -6,6 +6,7 @@
     "allowSyntheticDefaultImports": true,
     "forceConsistentCasingInFileNames": true,
     "skipLibCheck": true,
+    "allowJs": true,
     "outDir": "dist",
     "isolatedModules": true,
     "incremental": true,

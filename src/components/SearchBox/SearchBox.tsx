@@ -2,10 +2,11 @@ import { FC, useState, useEffect } from 'react';
 
 interface SearchBoxProps {
   handleFormChange?: (e: string) => void;
+  searchValue? : string;
 }
 
-const SearchBox: FC<SearchBoxProps> = ({ handleFormChange }) => {
-  const [searchInput, setSearchInput] = useState('');
+const SearchBox: FC<SearchBoxProps> = ({ handleFormChange, searchValue }) => {
+  const [searchInput, setSearchInput] = useState(searchValue);
 
 
   useEffect(()=> {
@@ -18,6 +19,7 @@ const SearchBox: FC<SearchBoxProps> = ({ handleFormChange }) => {
     setSearchInput( value );
   };
 
+  
   return (
     <div className="w-full">
       <h2 className="text-3xl mb-4 font-bold">Search</h2>

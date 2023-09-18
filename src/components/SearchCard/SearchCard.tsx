@@ -2,7 +2,7 @@ import { Drug } from "@entities/drugs";
 import { FC } from "react";
 
 const SearchCard:FC<Drug> = ({ name, released, diseases, description }) => (
-  <div className="mt-4">
+  <div data-testid="search-component" className="mt-4">
     <div className="grid grid-cols-1">
       <div className="card cursor-pointer p-6 border border-gray-400 rounded-lg hover:shadow-md hover:border-opacity-0 transform hover:-translate-y-1 transition-all duration-200">
         <div className="m-3">
@@ -14,7 +14,7 @@ const SearchCard:FC<Drug> = ({ name, released, diseases, description }) => (
           </h2>
           <h3>List of related disease(s) 
             {
-              diseases.map((disease, index) => <span className="italic font-bold" key={index}> {disease}, </span> )
+              diseases.map((disease, index) => <span data-testid="disease-span-component" className="italic font-bold" key={index}> {disease}, </span> )
             }
 
 

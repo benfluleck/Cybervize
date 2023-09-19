@@ -106,9 +106,6 @@ devDependencies:
   eslint-plugin-react:
     specifier: ^7.33.2
     version: 7.33.2(eslint@8.49.0)
-  extend-expect:
-    specifier: link:@testing-library/jest-dom/extend-expect
-    version: link:@testing-library/jest-dom/extend-expect
   file-loader:
     specifier: ^6.2.0
     version: 6.2.0(webpack@5.88.2)
